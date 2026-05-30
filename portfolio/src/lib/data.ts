@@ -7,7 +7,7 @@ export const personalInfo = {
   bio: "CSE student passionate about building scalable, high-performance web applications. I transform complex problems into elegant solutions using modern technologies.",
   email: "anandp8678@email.com",
   phone: "+91 8590659313",
-  location: "Idukki, Kerala, India",
+  location: "Ernakulam, Kerala, India",
   availability: "Open to Internships & Full-Time Opportunities",
   github: "https://github.com/anandp8678",
   linkedin: "https://www.linkedin.com/in/anand-p8678/",
