@@ -166,8 +166,8 @@ export default function Hero() {
                   <Image
                     src="/images/Zuid.jpg"
                     alt="Anand P"
-                    fill
-                    className="object-cover"
+                    width={300}
+                    height={300}
                     priority
                   />
                 </div>
