@@ -164,10 +164,10 @@ export default function Hero() {
                 {/* Profile image (place ZuiiD.jpg at public/images/) */}
                 <div className="absolute inset-0">
                   <Image
-                    src="/images/Zuid.jpg"
+                    src="/images/ZuiD.jpg"
                     alt="Anand P"
-                    width={300}
-                    height={300}
+                    fill
+                    className="object-cover"
                     priority
                   />
                 </div>
