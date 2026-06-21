@@ -98,7 +98,7 @@ export const projects = [
       "CuraZone is a smart healthcare web application developed to simplify medicine purchasing and prescription management. The system allows users to upload prescriptions, extract medicine details using OCR technology, and automatically generate medicine lists for easier ordering. It also provides features such as medicine reminders, chatbot assistance, and nearby healthcare center discovery to improve user convenience and accessibility. The project was developed using modern web technologies with an interactive and user-friendly interface",
     image: "/images/curazone.jpg",
     tags: ["HTML", "CSS", "Django", "MySQL", "JavaScript"],
-    github: "",
+    github: "https://github.com/anandp8678/CuraZone",
     live: "",
     featured: true,
     color: "blue",
