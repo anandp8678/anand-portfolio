@@ -110,8 +110,8 @@ export const projects = [
       "Developed a web-based Hostel Management System using Django and SQLite to simplify hostel operations and improve communication between students, wardens, and parents. The system includes modules for attendance tracking, complaint management, room allocation, fee monitoring, and notice management with secure role-based access. Designed a responsive and user-friendly interface to enhance efficiency, transparency, and overall hostel administration.",
     image: "/images/hostel.jpg",
     tags: ["HTML", "CSS", "Django", "SQLite", "JavaScript"],
-    github: "",
-    live: "https://hostel-mgmt.vercel.app",
+    github: "https://github.com/anandp8678/Hostel-Management-System",
+    live: "",
     color: "blue",
   },
   {
