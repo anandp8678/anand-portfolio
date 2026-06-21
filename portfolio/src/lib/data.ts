@@ -121,7 +121,7 @@ export const projects = [
       "EduSync is a full-stack AI chatbot web application developed using React.js and Django REST Framework, integrated with the Google Gemini API to generate intelligent real-time responses. The application features a modern and responsive chat interface with functionalities such as persistent chat history, typing indicators, auto-scrolling conversations, and multi-page navigation. The project demonstrates frontend-backend integration, RESTful API development, AI API integration, and responsive UI design to deliver a smooth and interactive user experience.",
     image: "/images/edusync.jpg",
     tags: ["React.js", "Django REST Framework", "Google Gemini API", "JavaScript", "Python", "CSS", "React Router", "REST API"],
-    github: "",
+    github: "https://github.com/anandp8678/EduSync",
     live: "",
     color: "purple",
   },
