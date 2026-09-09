@@ -69,16 +69,27 @@ export const experiences = [
   {
     id: 1,
     type: "internship",
+    title: "Software Engineer Intern",
+    company: "Mints Global",
+    duration: "July 1 – Present",
+    description:
+      "Contributed to the development and enhancement of ERP systems by modifying existing functionalities and implementing new features to support business operations. Developed Shield Desk, a web application using React, Node.js, HTML, and CSS, with a focus on building responsive user interfaces and integrating frontend and backend components. Gained hands-on experience in full-stack application development, system customization, and working with modern web technologies in a professional software development environment.",
+    tags: ["HTML", "CSS", "React", "Node.js"],
+    color: "red",
+  },
+  {
+    id: 2,
+    type: "internship",
     title: "Front-End Developer Intern",
     company: "NeST Digital, Kochi",
     duration: "Mar 2025 – Mar 2025",
     description:
-      "Developed responsive user interfaces for eKart and Jewls web applications using Angular and integrated REST APIs to fetch and display dynamic content including products and recipes. Designed responsive UI components, implemented routing, and optimized navigation using modular Angular structures. Completed the Industry Immersion Program on Frontend Application Development using Angular, earning a certification from NeST Digital.",
+      "Developed responsive user interfaces for eKart  web applications using Angular and integrated REST APIs to fetch and display dynamic content including products and recipes. Designed responsive UI components, implemented routing, and optimized navigation using modular Angular structures. Completed the Industry Immersion Program on Frontend Application Development using Angular, earning a certification from NeST Digital.",
     tags: ["Angular", "HTML", "CSS", "REST APIs","Bootstrap"],
     color: "blue",
   },
   {
-    id: 2,
+    id: 3,
     type: "internship",
     title: "Full Stack Web Development Using Python Intern (Online)",
     company: "STEM ROBOTICS",
