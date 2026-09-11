@@ -13,7 +13,7 @@ export default function Contact() {
           label="Get In Touch"
           title="Let's"
           highlight="Connect"
-          description="Reach out using the details below — no form needed."
+          description="Reach out using the details below"
         />
 
         <div className="space-y-8">

@@ -84,7 +84,7 @@ export const experiences = [
     type: "internship",
     title: "Front-End Developer Intern",
     company: "NeST Digital, Kochi",
-    duration: "Mar 2025 – Mar 2025",
+    duration: "Mar 2025 – Apr 2025",
     description:
       "Developed responsive user interfaces for eKart  web applications using Angular and integrated REST APIs to fetch and display dynamic content including products and recipes. Designed responsive UI components, implemented routing, and optimized navigation using modular Angular structures. Completed the Industry Immersion Program on Frontend Application Development using Angular, earning a certification from NeST Digital.",
     tags: ["Angular", "HTML", "CSS", "REST APIs","Bootstrap"],
