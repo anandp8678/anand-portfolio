@@ -64,7 +64,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.65 }}
               className="text-xl sm:text-2xl font-semibold text-neon-blue mb-6"
             >
-              Computer science student
+              Computer Science graduate
             </motion.p>
 
             <motion.p
@@ -73,9 +73,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.75 }}
               className="text-slate-400 text-lg leading-relaxed mb-8 max-w-lg"
             >
-              {personalInfo.tagline} Turning ideas into{" "}
-              <span className="text-slate-200">scalable products</span> with{" "}
-              <span className="text-neon-purple">modern web technologies</span>.
+              {personalInfo.tagline}
             </motion.p>
 
             <motion.div

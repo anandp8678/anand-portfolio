@@ -50,6 +50,7 @@ export const skillCategories = [
       { name: "Python", level: 92, icon: "🐍" },
       { name: "C", level: 88, icon: "⚙️" },
       { name: "Java", level: 70, icon: "☕" },
+      { name: "Dart", level: 65, icon: "💻" },
     ],
   },
   {
@@ -61,6 +62,7 @@ export const skillCategories = [
       { name: "Figma", level: 80, icon: "🎨" },
       { name: "VS Code", level: 96, icon: "💻" },
       { name: "Linux", level: 65, icon: "🐧" },
+      {name: "Flutter", level: 50, icon: "🦋" },
     ],
   },
 ];
