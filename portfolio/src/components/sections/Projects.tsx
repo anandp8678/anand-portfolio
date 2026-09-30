@@ -28,10 +28,10 @@ function ProjectCard({ project, index }: { project: (typeof projects)[0]; index:
       initial={{ opacity: 0, y: 40 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
-      className={`group glass rounded-2xl overflow-hidden border ${c.border} transition-all duration-300 hover:-translate-y-2 hover:shadow-card-hover flex flex-col`}
+      className={`group glass rounded-2xl overflow-hidden border ${c.border} transition-all duration-300 hover:-translate-y-2 hover:shadow-card-hover flex flex-col sm:flex-row ${project.id === 2 ? "sm:flex-row-reverse" : ""}`}
     >
       {/* Image / thumbnail area */}
-      <div className="relative h-44 overflow-hidden">
+      <div className="relative h-44 overflow-hidden sm:h-auto sm:min-h-64 sm:w-2/5 sm:flex-shrink-0">
         <Image
           src={project.image}
           alt={project.title}
@@ -65,7 +65,7 @@ function ProjectCard({ project, index }: { project: (typeof projects)[0]; index:
       </div>
 
       {/* Content */}
-      <div className="p-6 flex flex-col flex-1">
+      <div className="p-6 flex flex-col flex-1 sm:w-3/5">
         <h3 className="font-display font-semibold text-lg text-slate-100 mb-2 group-hover:text-white transition-colors">
           {project.title}
         </h3>
@@ -112,7 +112,7 @@ export default function Projects() {
           description="A selection of projects I've built — from production-grade applications to award-winning hackathon solutions."
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+        <div className="grid grid-cols-1 gap-6 mb-10">
           {displayed.map((project, i) => (
             <ProjectCard key={project.id} project={project} index={i} />
           ))}
