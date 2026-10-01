@@ -135,7 +135,7 @@ export default function Hero() {
                 className="absolute inset-0 rounded-full"
                 style={{
                   background:
-                    "conic-gradient(from 0deg, #00D4FF, #8B5CF6, #06FFC8, transparent, #00D4FF)",
+                    "conic-gradient(from 0deg, #00FF87, #39FF14, #00FFC8, transparent, #00FF87)",
                   padding: "2px",
                 }}
               >

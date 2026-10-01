@@ -16,9 +16,9 @@ const typeIconMap: Record<string, React.ElementType> = {
 };
 
 const colorMap: Record<string, { border: string; bg: string; text: string; dot: string }> = {
-  blue: { border: "border-neon-blue/20", bg: "bg-neon-blue/5", text: "text-neon-blue", dot: "#00D4FF" },
-  purple: { border: "border-neon-purple/20", bg: "bg-neon-purple/5", text: "text-neon-purple", dot: "#8B5CF6" },
-  cyan: { border: "border-neon-cyan/20", bg: "bg-neon-cyan/5", text: "text-neon-cyan", dot: "#06FFC8" },
+  blue: { border: "border-neon-blue/20", bg: "bg-neon-blue/5", text: "text-neon-blue", dot: "#00FF87" },
+  purple: { border: "border-neon-purple/20", bg: "bg-neon-purple/5", text: "text-neon-purple", dot: "#39FF14" },
+  cyan: { border: "border-neon-cyan/20", bg: "bg-neon-cyan/5", text: "text-neon-cyan", dot: "#00FFC8" },
   green: { border: "border-green-400/20", bg: "bg-green-400/5", text: "text-green-400", dot: "#4ade80" },
   pink: { border: "border-pink-400/20", bg: "bg-pink-400/5", text: "text-pink-400", dot: "#f472b6" },
 };

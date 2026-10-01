@@ -15,16 +15,16 @@ const config: Config = {
       },
       colors: {
         bg: {
-          primary: "#070B14",
-          secondary: "#0D1220",
-          tertiary: "#111827",
-          card: "#0F1A2E",
+          primary: "#050F0A",
+          secondary: "#0A1510",
+          tertiary: "#0F1F12",
+          card: "#0A1F10",
         },
         neon: {
-          blue: "#00D4FF",
-          purple: "#8B5CF6",
-          cyan: "#06FFC8",
-          pink: "#FF2D78",
+          blue: "#00FF87",
+          purple: "#39FF14",
+          cyan: "#00FFC8",
+          pink: "#CCFF00",
         },
         accent: {
           blue: "#2563EB",
@@ -34,16 +34,16 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "hero-gradient": "linear-gradient(135deg, #070B14 0%, #0D1220 50%, #0F1428 100%)",
-        "neon-gradient": "linear-gradient(135deg, #00D4FF 0%, #8B5CF6 50%, #06FFC8 100%)",
-        "card-gradient": "linear-gradient(145deg, rgba(15,26,46,0.9) 0%, rgba(13,18,32,0.95) 100%)",
+        "hero-gradient": "linear-gradient(135deg, #050F0A 0%, #0A1510 50%, #0F1F12 100%)",
+        "neon-gradient": "linear-gradient(135deg, #00FF87 0%, #39FF14 50%, #00FFC8 100%)",
+        "card-gradient": "linear-gradient(145deg, rgba(10,31,16,0.9) 0%, rgba(10,21,16,0.95) 100%)",
       },
       boxShadow: {
-        "neon-blue": "0 0 20px rgba(0, 212, 255, 0.3), 0 0 40px rgba(0, 212, 255, 0.1)",
-        "neon-purple": "0 0 20px rgba(139, 92, 246, 0.3), 0 0 40px rgba(139, 92, 246, 0.1)",
-        "neon-cyan": "0 0 20px rgba(6, 255, 200, 0.3), 0 0 40px rgba(6, 255, 200, 0.1)",
-        "card-glow": "0 8px 32px rgba(0, 212, 255, 0.08), 0 4px 16px rgba(0,0,0,0.4)",
-        "card-hover": "0 16px 48px rgba(0, 212, 255, 0.15), 0 8px 24px rgba(139, 92, 246, 0.1)",
+        "neon-blue": "0 0 20px rgba(0, 255, 135, 0.3), 0 0 40px rgba(0, 255, 135, 0.1)",
+        "neon-purple": "0 0 20px rgba(57, 255, 20, 0.3), 0 0 40px rgba(57, 255, 20, 0.1)",
+        "neon-cyan": "0 0 20px rgba(0, 255, 200, 0.3), 0 0 40px rgba(0, 255, 200, 0.1)",
+        "card-glow": "0 8px 32px rgba(0, 255, 135, 0.08), 0 4px 16px rgba(0,0,0,0.4)",
+        "card-hover": "0 16px 48px rgba(0, 255, 135, 0.15), 0 8px 24px rgba(57, 255, 20, 0.1)",
       },
       animation: {
         "float": "float 6s ease-in-out infinite",
@@ -62,8 +62,8 @@ const config: Config = {
           "50%": { transform: "translateY(-20px)" },
         },
         pulseGlow: {
-          "0%, 100%": { boxShadow: "0 0 20px rgba(0, 212, 255, 0.3)" },
-          "50%": { boxShadow: "0 0 40px rgba(0, 212, 255, 0.6), 0 0 80px rgba(139, 92, 246, 0.2)" },
+          "0%, 100%": { boxShadow: "0 0 20px rgba(0, 255, 135, 0.3)" },
+          "50%": { boxShadow: "0 0 40px rgba(0, 255, 135, 0.6), 0 0 80px rgba(57, 255, 20, 0.2)" },
         },
         rotateSlow: {
           from: { transform: "rotate(0deg)" },

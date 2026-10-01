@@ -9,7 +9,7 @@ export default function BackgroundBlobs() {
         style={{
           width: "600px",
           height: "600px",
-          background: "radial-gradient(circle, #00D4FF 0%, transparent 70%)",
+          background: "radial-gradient(circle, #00FF87 0%, transparent 70%)",
           top: "-200px",
           left: "-200px",
           opacity: 0.08,
@@ -22,7 +22,7 @@ export default function BackgroundBlobs() {
         style={{
           width: "500px",
           height: "500px",
-          background: "radial-gradient(circle, #8B5CF6 0%, transparent 70%)",
+          background: "radial-gradient(circle, #39FF14 0%, transparent 70%)",
           top: "100px",
           right: "-100px",
           opacity: 0.1,
@@ -35,7 +35,7 @@ export default function BackgroundBlobs() {
         style={{
           width: "400px",
           height: "400px",
-          background: "radial-gradient(circle, #06FFC8 0%, transparent 70%)",
+          background: "radial-gradient(circle, #00FFC8 0%, transparent 70%)",
           top: "50%",
           left: "30%",
           opacity: 0.05,
@@ -48,7 +48,7 @@ export default function BackgroundBlobs() {
         style={{
           width: "500px",
           height: "500px",
-          background: "radial-gradient(circle, #8B5CF6 0%, transparent 70%)",
+          background: "radial-gradient(circle, #39FF14 0%, transparent 70%)",
           bottom: "-100px",
           left: "10%",
           opacity: 0.08,
@@ -61,7 +61,7 @@ export default function BackgroundBlobs() {
         style={{
           width: "450px",
           height: "450px",
-          background: "radial-gradient(circle, #00D4FF 0%, transparent 70%)",
+          background: "radial-gradient(circle, #00FF87 0%, transparent 70%)",
           bottom: "10%",
           right: "5%",
           opacity: 0.07,
